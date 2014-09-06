@@ -50,7 +50,7 @@
 {
     int difference = abs(_targetValue - _currentValue);
     int points = 100 - difference;
-    _score += points;
+    
     
     NSString *title;
     if (difference == 0)
@@ -73,6 +73,8 @@
     else {
         title = @"Not even close";
     }
+    
+    _score += points;
     
     NSString *message = [NSString stringWithFormat:
                          @"You scored %d points",
@@ -115,8 +117,14 @@
 
 - (void)startOver
 {
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionFade;
+    transition.duration = 1;
+    transition.timingFunction = [CAMediaTimingFunction
+                                 functionWithName:kCAMediaTimingFunctionEaseOut];
     [self startNewGame];
     [self updateLabels];
+    [self.view.layer addAnimation:transition forKey:nil];
 }
 
 - (void)startNewGame
