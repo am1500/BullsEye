@@ -2,7 +2,7 @@
 //  AboutViewController.m
 //  BullsEye
 //
-//  Created by Guest User on 9/5/14.
+//  Created by Guest User on 9/6/14.
 //  Copyright (c) 2014 Alejandro Mendoza. All rights reserved.
 //
 
@@ -34,6 +34,13 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)close {
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES; }
 
 /*
 #pragma mark - Navigation
