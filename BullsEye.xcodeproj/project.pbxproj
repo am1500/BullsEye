@@ -22,6 +22,7 @@
 		13190B8019B6E10D009B2A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13190B7E19B6E10D009B2A35 /* InfoPlist.strings */; };
 		13190B8219B6E10D009B2A35 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13190B8119B6E10D009B2A35 /* BullsEyeTests.m */; };
 		ACEC4CD319BB9C800028DC91 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC4CD219BB9C800028DC91 /* AboutViewController.m */; };
+		ACEC4CD519BBADBE0028DC91 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = ACEC4CD419BBADBE0028DC91 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		13190B8119B6E10D009B2A35 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
 		ACEC4CD119BB9C800028DC91 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		ACEC4CD219BB9C800028DC91 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		ACEC4CD419BBADBE0028DC91 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		13190B5C19B6E10D009B2A35 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				ACEC4CD419BBADBE0028DC91 /* BullsEye.html */,
 				13190B6519B6E10D009B2A35 /* AMAppDelegate.h */,
 				13190B6619B6E10D009B2A35 /* AMAppDelegate.m */,
 				13190B6819B6E10D009B2A35 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13190B6F19B6E10D009B2A35 /* Images.xcassets in Resources */,
+				ACEC4CD519BBADBE0028DC91 /* BullsEye.html in Resources */,
 				13190B6119B6E10D009B2A35 /* InfoPlist.strings in Resources */,
 				13190B6A19B6E10D009B2A35 /* Main.storyboard in Resources */,
 			);
